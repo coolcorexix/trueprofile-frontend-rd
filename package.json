@@ -1,0 +1,8 @@
+{
+    "name": "trueprofile-frontend-rd",
+    "version": "0.1.0",
+    "author": "nemothecollector",
+    "workspaces": [
+        "projects/*"
+    ]
+}
