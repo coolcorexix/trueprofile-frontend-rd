@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.10",
+    "cypress": "^4.1.0"
+  },
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.1",
+    "faker": "^4.1.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0"
+  }
+}

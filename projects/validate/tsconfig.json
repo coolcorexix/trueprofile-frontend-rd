@@ -1,0 +1,10 @@
+{
+    "extends": "../tsconfig.setting.json",
+    "references": [
+        {"path": "../main"}
+    ],
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "build",
+    }
+}

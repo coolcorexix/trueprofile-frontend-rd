@@ -1,0 +1,11 @@
+{
+    "references": [
+        { "path": "validate" },
+        { "path": "test" },
+        { "path": "main" }
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+    ],
+}

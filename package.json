@@ -4,5 +4,6 @@
     "author": "nemothecollector",
     "workspaces": [
         "projects/*"
-    ]
+    ],
+    "private": true
 }
