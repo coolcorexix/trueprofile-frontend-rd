@@ -1,9 +1,9 @@
-current_commit="$(git log -1 --pretty=format:"%h")"
+current_commit="$(git log -1 --pretty=format:"%h" ./projects)"
 
-PROJECTS="$(git ls-tree --name-only HEAD ./projects/*)"
+PROJECTS=("projects/main" "projects/test" "projects/validate")
 
-for f in $PROJECTS; do
-    str="$(git log -1 --pretty=format:"%h" $f)"
+for p in ${PROJECTS[@]}; do
+    str="$(git log -1 --pretty=format:"%h" $p)"
     if [ $current_commit = $str ]
         then
             printf "true \n"
