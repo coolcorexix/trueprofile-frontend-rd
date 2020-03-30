@@ -1,3 +1,5 @@
+# this script run with the assumption that every build went throught successfully
+
 current_commit_of_monorepo="$(git log -1 --pretty=format:"%h")"
 current_commit_of_workspaces="$(git log -1 --pretty=format:"%h" ./projects)"
 
