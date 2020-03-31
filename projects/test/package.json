@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@cypress/webpack-preprocessor": "^4.1.1",
-    "@tp-rd/create": "^1.0.1",
+    "@tp-rd/create": "^1.0.2",
     "faker": "^4.1.0",
     "ts-loader": "^6.2.1",
     "typescript": "^3.8.3",

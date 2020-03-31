@@ -1,12 +1,12 @@
 {
   "name": "validate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "ts-node src/index.ts"
   },
   "dependencies": {
-    "@tp-rd/create": "^1.0.1"
+    "@tp-rd/create": "^1.0.2"
   }
 }
