@@ -5,5 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@tp-rd/create": "^1.0.0"
   }
 }
