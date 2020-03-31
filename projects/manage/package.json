@@ -1,9 +1,9 @@
 {
     "name": "manage",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "dependencies": {
-        "@tp-rd/create": "^1.0.0",
+        "@tp-rd/create": "^1.0.1",
         "simple-git": "^1.132.0"
     },
     "scripts": {
