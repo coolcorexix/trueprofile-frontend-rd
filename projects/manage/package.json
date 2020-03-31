@@ -1,0 +1,11 @@
+{
+    "name": "manage",
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "simple-git": "^1.132.0"
+    },
+    "scripts": {
+      "manage:build": "ts-node src/manageBuild.ts"
+    }
+}
