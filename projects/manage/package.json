@@ -4,7 +4,7 @@
     "license": "MIT",
     "dependencies": {
         "@tp-rd/create": "^1.0.2",
-        "simple-git": "^1.132.0"
+        "simple-git": "^3.15.0"
     },
     "scripts": {
         "manage:build": "ts-node src/manageBuild.ts"
